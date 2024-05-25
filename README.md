@@ -1,5 +1,6 @@
 ## 说明<br>
-使用tsdf方法融合语义特征，借鉴了kinectfusion<br>
+使用tsdf方法融合语义特征，借鉴了kinectfusion
+
 ---
 ## 使用方法<br>
 根据Detic仓库教程安装Deic<br>
