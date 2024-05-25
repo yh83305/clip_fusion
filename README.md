@@ -1,7 +1,7 @@
-## 说明
+## 说明<br>
 使用tsdf方法融合语义特征，借鉴了kinectfusion<br>
 ---
-## 使用方法
+## 使用方法<br>
 根据Detic仓库教程安装Deic<br>
 安装pyreasense2<br>
 使用video_recorder.py收集图像序列<br>
