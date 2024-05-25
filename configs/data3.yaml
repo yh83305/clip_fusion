@@ -1,0 +1,8 @@
+intrinsics_data_root: "/home/ubuntu/Desktop/tsdf-fusion-python/data3/"
+rgb_data_root: "/home/ubuntu/Desktop/tsdf-fusion-python/data3/"
+depth_data_root: "/home/ubuntu/Desktop/tsdf-fusion-python/data3/"
+n_imgs: 750
+voxel_size: 0.05
+vol_bounds: [ -3, 3.0, -3, 3, -3, 3.0 ]
+n_samples: 196
+deepth_scale: 1000.0
