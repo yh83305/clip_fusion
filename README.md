@@ -1,13 +1,15 @@
-# TSDF-based Semantic 3D Reconstruction
+## Instructions
+Use the TSDF method to fuse semantic features, drawing inspiration from KinectFusion.
 
-## Overview
-This project implements a 3D semantic reconstruction system using Truncated Signed Distance Function (TSDF) volume fusion with semantic feature integration, inspired by the KinectFusion framework.
+## Usage
+Install Deic according to the tutorial in the Detic repository.
 
-## Prerequisites
+Install PyRealSense2.
 
-### 1. Install Detic
-Follow the official Detic repository installation guide:
-```bash
-git clone https://github.com/facebookresearch/Detic.git
-cd Detic
-pip install -r requirements.txt
+Use video_recorder.py to collect image sequences.
+
+Edit the configs/xxxx.yaml file.
+
+Use demo_withICP.py for 3D semantic reconstruction based on KinectFusion.
+
+After reconstruction is complete, query in view.py.
